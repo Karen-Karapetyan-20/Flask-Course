@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+<body>
+    <h1>Home page</h1>
+    <p>{{ content }}</p>
+    <p>{{ r }}</p>
+<!--    {% for i in range(0, 10) %}-->
+<!--        {% if i % 2 == 1 %}-->
+<!--            <p>{{ i }}</p>-->
+<!--        {% endif %}-->
+<!--    {% endfor %}-->
+    {% for x in content %}
+        <p>{{ x }}</p>
+        {% if x == 'Tim' %}
+
+<!--        {% elif %}-->
+<!--    -->
+<!--        {% else %}-->
+<!--    -->
+        {% endif %}
+    {% endfor %}
+
+</body>
+</html>
